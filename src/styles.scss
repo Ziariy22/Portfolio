@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+

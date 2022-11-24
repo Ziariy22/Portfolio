@@ -1,0 +1,35 @@
+<div class="navbar">
+  <a data-aos="zoom-in" data-aos-duration="800" href="#greeting"
+    ><img class="logo-coding" src="assets/img/coding.png"
+  /></a>
+  <div
+    data-aos="fade-up"
+    data-aos-duration="800"
+    data-aos-anchor-placement="top-bottom"
+    class="menu"
+  >
+    <a class="home" href="#greeting">Home</a>
+    <a class="about" href="#about-me">About</a>
+    <a class="portfolio" href="#portfolio">Projects</a>
+  </div>
+
+  <img
+    (click)="openMenu()"
+    class="menu-responsive-logo"
+    src="assets/img/menu-bar.png"
+  />
+
+  <div [class.resmenuopened]="menuopened" class="responsive-menu">
+    <img
+      (click)="closeMenu()"
+      class="menu-responsive-close"
+      src="assets/img/close.png"
+    />
+    <div class="menu-responsive-links">
+      <a (click)="closeMenu()" href="#greeting">Home</a>
+      <a (click)="closeMenu()" href="#about-me">About</a>
+      <a (click)="closeMenu()" href="#portfolio">Projects</a>
+    </div>
+    <div class="responsive-under-overlay"></div>
+  </div>
+</div>

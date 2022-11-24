@@ -1,0 +1,53 @@
+<div id="contact" class="contact-container">
+  <div class="contact-heading">
+    <h1 data-aos="fade-right" data-aos-duration="750">Contact me.</h1>
+    <p data-aos="fade-right" data-aos-duration="750">
+      Get in touch via the form below, or by emailing
+      <a class="email" href="mailto:samed.azaplioglu@outlook.de">
+        samed.azaplioglu@outlook.de</a
+      ><br />
+    </p>
+  </div>
+
+  <form
+    data-aos="fade-left"
+    data-aos-duration="750"
+    class="noteContent"
+    action="https://samed-azaplioglu.developerakademie.net/send_mail/send_mail.php"
+    method="post"
+    ngNativeValidate
+  >
+    <span>Name</span>
+    <input
+      name="name"
+      class="input-name"
+      required
+      type="text"
+      placeholder="Enter your name"
+    />
+
+    <span>Email address</span>
+    <input
+      name="email"
+      class="input-email"
+      required
+      name="email"
+      type="email"
+      placeholder="Enter your Email address"
+    />
+
+    <span>Message</span>
+    <textarea
+      name="message"
+      class="message-box"
+      required
+      name="message"
+      type="text"
+      placeholder="Enter your message"
+    ></textarea>
+
+    <div class="btn">
+      <button class="inputbutton">Send</button>
+    </div>
+  </form>
+</div>

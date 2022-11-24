@@ -1,0 +1,238 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    background: #000;
+    height: 100vh;
+    
+    h1 {
+        margin: 0;
+        color: white;
+        padding-top: 64px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+}
+
+.contact-btn {
+    color: white;
+    margin-top: 32px;
+    background-color: #000;
+    border: 2px solid #FA2759;
+    width: 128px;
+    height: 70px;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    font-weight: 400;
+
+    &:hover {
+        background-color: #FA2759;
+    }
+}
+
+.all-projects {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 880px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 16px;
+
+    h2 {
+        color:#2dfcd8;
+        margin: 0;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 18px;
+        text-shadow: 1px 2px 10px #f71146;
+        padding-bottom: 16px;
+        font-weight: 400;
+    }
+
+    img {
+        margin: 20px;
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    
+    button {
+        background-color: black;
+        border: 2px solid #2dfcd8;
+        color: #2dfcd8;
+        width: 150px;
+        height: 65px;
+        margin: 8px;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #2dfcd8;
+            color: black;
+        }
+    }
+}
+
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px 2px #2dfcd8;
+
+        &:hover {
+            filter: brightness(1.30);
+        }
+    }
+}
+
+.button-disabled {
+    background-color: #690e23;
+    border: 2px solid black;
+    cursor: not-allowed;
+
+    &:hover {
+        background-color: #690e23;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #000;
+        height: auto;
+        
+        h1 {
+            margin: 0;
+            color: white;
+            padding-top: 64px;
+            padding-bottom: 32px;
+            font-size: 36px;
+        }
+    }
+
+
+.contact-btn {
+    color: white;
+    margin-top: 10px;
+    background-color: #000;
+    border: 2px solid #FA2759;
+    width: 128px;
+    height: 70px;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: #FA2759;
+    }
+}
+
+.button-disabled {
+    background-color: #690e23;
+    border: 2px solid black;
+    cursor: not-allowed;
+
+    &:hover {
+        background-color: #690e23;
+    }
+}
+
+.all-projects {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 25px;
+    margin-top: 16px;
+
+    h2 {
+        color:#2dfcd8;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        padding-bottom: 16px;
+    }
+
+    img {
+        margin: 20px;
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    
+    button {
+        background-color: black;
+        border: 2px solid #2dfcd8;
+        color: #2dfcd8;
+        width: 150px;
+        height: 65px;
+        margin: 8px;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #2dfcd8;
+            color: black;
+        }
+    }
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        filter: brightness(1);
+    }
+
+    div {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px 2px #2dfcd8;
+    }
+}
+}
+
+
+
+
