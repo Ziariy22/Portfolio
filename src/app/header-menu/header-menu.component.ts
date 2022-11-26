@@ -21,4 +21,5 @@ export class HeaderMenuComponent implements OnInit {
   closeMenu() {
     this.menuopened = false;
   }
+  
 }

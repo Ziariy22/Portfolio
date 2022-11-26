@@ -1,6 +1,7 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
+
 }
 
 body{
@@ -9,4 +10,18 @@ body{
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 3px;
+  }
+  
+  ::-webkit-scrollbar-track-piece{
+  background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical{
+  height: 7px;
+  background-color: #2dfcd8;
+  }
 
