@@ -19,6 +19,10 @@ export class ProjectsComponent implements OnInit {
   Javascript = true;
   Angular = true;
 
+
+  /**
+   * all projects
+   */
   showAll() {
     this.Javascript = true;
     this.Angular = true;
@@ -27,6 +31,10 @@ export class ProjectsComponent implements OnInit {
     this.btnAll = true;
   }
 
+
+  /**
+   * only angular-projects
+   */
   showAngular() {
     this.Javascript = false;
     this.Angular = true;
@@ -35,6 +43,9 @@ export class ProjectsComponent implements OnInit {
     this.btnAll = false;
   }
 
+  /**
+   * only-Javascript-projects
+   */
   showJavascript() {
     this.Javascript = true;
     this.Angular = false;

@@ -14,12 +14,20 @@ export class HeaderMenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  /**
+   * open-button
+   */
   openMenu() {
     this.menuopened = true;
   }
 
+
+  /**
+   * close-button
+   */
   closeMenu() {
     this.menuopened = false;
   }
-  
+
 }

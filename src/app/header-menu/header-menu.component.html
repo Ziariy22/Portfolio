@@ -2,6 +2,7 @@
   <a data-aos="zoom-in" data-aos-duration="800" href="#greeting"
     ><img class="logo-coding" src="assets/img/coding.png"
   /></a>
+  <!-- menu-links -->
   <div
     data-aos="fade-up"
     data-aos-duration="800"
@@ -13,12 +14,14 @@
     <a class="portfolio" href="#portfolio">Projects</a>
   </div>
 
+  <!-- responsive-open-logo -->
   <img
     (click)="openMenu()"
     class="menu-responsive-logo"
     src="assets/img/menu-bar.png"
   />
 
+  <!-- menu-links-responsive -->
   <div [class.resmenuopened]="menuopened" class="responsive-menu">
     <img
       (click)="closeMenu()"
